@@ -13,7 +13,7 @@ export default class Model {
       ]
       this.currentId = 1;
     } else {
-      this.currentId = this.todos[this.todos.length - 1].id + 1;
+      this.currentId = this.todos[this.todos.length - 1].id+1 ;
     }
   }
 
